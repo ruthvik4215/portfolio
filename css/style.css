@@ -29,50 +29,31 @@ body {
     display: block;
     color: grey;
     text-align: center;
-    font-weight: bold;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
 }
 
 .topNavigationMenu a:hover {
-    color: black;
-}
-
-.navigationTitle a {
-    float: left;
-    color: dodgerblue;
-}
-
-.topNavigationMenu .icon {
-    display: none;
+    color: #1da1f2;
+    background-color: #e1f5fe;
+    border-radius: 0px 0px 50px 50px;
 }
 
 .navigationTitle {
-    margin-right: 100px;
+    margin-right: 150px;
+    font-weight: bold;
 }
 
 @media screen and (max-width: 700px) {
     .topNavigationMenu a:not(:first-child) {
         display: none;
     }
-
-    .topNavigationMenu a.icon {
-        float: right;
-        display: block;
-    }
 }
 
 @media screen and (max-width: 700px) {
     .topNavigationMenu.responsive {
         position: relative;
-    }
-
-    .topNavigationMenu.responsive .icon {
-        position: absolute;
-        right: 0;
-        color: black;
-        top: 0;
     }
 
     .topNavigationMenu.responsive a {
@@ -89,6 +70,11 @@ body {
 
     ::-webkit-scrollbar {
         width: none;
+    }
+
+    .topNavigationMenu {
+        overflow: hidden;
+        box-shadow: none;
     }
 }
 
