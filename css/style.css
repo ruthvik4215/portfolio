@@ -65,12 +65,16 @@ body {
 }
 
 .header-context-info {
-    font-size: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1c3c7b;
 }
 
-@media screen and (max-width: 700px) {
-    .topNavigationMenu a:not(:first-child) {
-        display: none;
+
+
+@media screen and (max-width: 500px) {
+    .header {
+        display: block;
     }
 }
 
@@ -86,7 +90,7 @@ body {
     }
 }
 
-@media screen and (min-width: 702px) {
+@media screen and (min-width: 902px) {
     .centered-navigation-menu{
         text-align: center;
     }
@@ -103,6 +107,11 @@ body {
     .anim {
         width: 500px;
         height: 400px;
+    }
+
+    .header {
+        margin-left: 150px;
+        margin-right: 150px;
     }
 }
 
