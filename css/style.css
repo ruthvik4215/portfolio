@@ -86,11 +86,15 @@ body {
     .centered-navigation-menu{
         text-align: center;
     }
+
+    ::-webkit-scrollbar {
+        width: none;
+    }
 }
 
 /* width */
 ::-webkit-scrollbar {
-  width: 0px;
+  width: none;
 }
 
 /* Track */
