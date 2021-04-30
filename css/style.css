@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -64,13 +66,23 @@ body {
     margin: 10px;
 }
 
+.header-context-title {
+    color: #444444;
+}
+
 .header-context-info {
     font-size: 25px;
     font-weight: bold;
+    font-family: 'Vast Shadow',
+    cursive;
     color: #1c3c7b;
 }
 
-
+.header-context-skills {
+    font-size: 14px;
+    color: #efa512;
+    font-weight: bold;
+}
 
 @media screen and (max-width: 500px) {
     .header {
