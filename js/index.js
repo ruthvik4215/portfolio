@@ -9,3 +9,16 @@ function myFunction() {
     x.className = "topNavigationMenu";
   }
 }
+
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("topNavigationMenu");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}

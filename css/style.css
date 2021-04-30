@@ -35,14 +35,37 @@ body {
 }
 
 .topNavigationMenu a:hover {
-    color: #1da1f2;
-    background-color: #e1f5fe;
+    color: white;
+    background-color: #787dc0;
     border-radius: 0px 0px 50px 50px;
 }
 
 .navigationTitle {
     margin-right: 150px;
     font-weight: bold;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+
+/* Header section. */
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.header-context-info {
+    font-size: 15px;
 }
 
 @media screen and (max-width: 700px) {
@@ -75,6 +98,11 @@ body {
     .topNavigationMenu {
         overflow: hidden;
         box-shadow: none;
+    }
+
+    .anim {
+        width: 500px;
+        height: 400px;
     }
 }
 
