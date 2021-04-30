@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -7,7 +7,8 @@
 
 body {
     background-color: white;
-    font-family: 'Zen Dots', cursive;
+    font-family: 'Roboto',
+    sans-serif;
 }
 
 .topNavigationMenu {
@@ -66,6 +67,12 @@ body {
     margin: 10px;
 }
 
+.header-context {
+    border-left: 4px solid #1c3c7b;
+    border-radius: 4px;
+    padding-left: 10px;
+}
+
 .header-context-title {
     color: #444444;
 }
@@ -73,8 +80,6 @@ body {
 .header-context-info {
     font-size: 25px;
     font-weight: bold;
-    font-family: 'Vast Shadow',
-    cursive;
     color: #1c3c7b;
 }
 
