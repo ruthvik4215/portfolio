@@ -122,11 +122,13 @@ body {
 
     .anim-about {
         margin: auto;
+        width: 300px;
+        height: 200px;
     }
 
     .about-context {
-        text-align: center;
-        padding: 0px 10px 10px 10px;
+        text-align: left;
+        padding: 20px 20px 10px 20px;
     }
 }
 
@@ -159,11 +161,16 @@ body {
     .anim {
         width: 500px;
         height: 400px;
+        margin: auto;
+    }
+
+    .about-context {
+        margin: auto;
     }
 
     .anim-about {
-        width: 400px;
-        height: 100px;
+        width: 500px;
+        height: 400px;
     }
 
     .about-animation {
