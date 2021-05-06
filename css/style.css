@@ -167,11 +167,11 @@ body {
     }
 
     .skills {
-        margin: 20px 20px 0px 20px;
+        margin: 10px 10px 0px 10px;
     }
 
     .skills-2 {
-        margin: 0px 20px 20px 20px;
+        margin: 0px 10px 10px 10px;
     }
 
     .skills-holder {
@@ -201,6 +201,10 @@ body {
 
     #skills-element-margin {
         margin-top: 10px;
+        padding: 10px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
+        0px 1px 10px 0px rgba(0, 0, 0, 0.10);
     }
 }
 
