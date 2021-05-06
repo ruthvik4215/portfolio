@@ -156,6 +156,49 @@ a {
     align-items: center;
 }
 
+.projects {
+    margin-top: 20px;
+}
+
+.projects-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.project-ml, .project-chat {
+    background-color: #ffeded;
+    color: #ff595e;
+    text-align: center;
+    padding: 10px;
+    height: 330px;
+    border-radius: 10px;
+}
+
+.project-title {
+    margin-bottom: 30px;
+}
+
+.work-btn {
+    background-color: white;
+    color: black;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
+.website-btn, .download-btn {
+    background-color: #ff595e;
+    color: white;
+    margin: 20px 0px 20px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 100px;
+    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
+    0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+}
+
 @media screen and (max-width: 500px) {
     .header {
         display: block;
@@ -203,7 +246,7 @@ a {
         padding: 20px 20px 10px 20px;
     }
 
-    img {
+    .img {
         height: 50px;
     }
 
@@ -213,6 +256,14 @@ a {
         border-radius: 7px;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
         0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .projects-holder {
+        display: block;
+    }
+
+    .project-chat, .project-ml {
+        margin: 0px 40px 20px 40px;
     }
 }
 
