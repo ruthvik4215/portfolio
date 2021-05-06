@@ -113,9 +113,40 @@ body {
     align-items: center;
 }
 
+.skills-python {
+    display: flex;
+    align-items: center;
+}
+
+.skills-webdev {
+    display: flex;
+    align-items: center;
+}
+
+.skills-machine-learning {
+    display: flex;
+    align-items: center;
+}
+
+.skills-ethical-hacking {
+    display: flex;
+    align-items: center;
+}
+
+.skills-java {
+    display: flex;
+    align-items: center;
+}
+
 .skills-image {
-    width: 50px;
-    height: 50px;
+    margin-right: 10px;
+}
+
+.skills-2-holder {
+    margin-top: 20px;
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
 }
 
 @media screen and (max-width: 500px) {
@@ -135,6 +166,24 @@ body {
         display: block;
     }
 
+    .skills {
+        margin: 20px 20px 0px 20px;
+    }
+
+    .skills-2 {
+        margin: 0px 20px 20px 20px;
+    }
+
+    .skills-holder {
+        display: block;
+        margin: auto;
+    }
+
+    .skills-2-holder {
+        display: block;
+        margin: auto;
+    }
+
     .anim-about {
         margin: auto;
         width: 300px;
@@ -144,6 +193,14 @@ body {
     .about-context {
         text-align: center;
         padding: 20px 20px 10px 20px;
+    }
+
+    img {
+        height: 50px;
+    }
+
+    #skills-element-margin {
+        margin-top: 10px;
     }
 }
 
