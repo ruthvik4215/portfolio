@@ -123,26 +123,37 @@ a {
 .skills-python {
     display: flex;
     align-items: center;
+    width: 33%;
 }
 
 .skills-webdev {
     display: flex;
     align-items: center;
+    width: 33%;
 }
 
 .skills-machine-learning {
     display: flex;
     align-items: center;
+    width: 33%;
 }
 
 .skills-ethical-hacking {
     display: flex;
     align-items: center;
+    width: 33%;
 }
 
 .skills-java {
     display: flex;
     align-items: center;
+    width: 33%;
+}
+
+.skills-aws {
+    display: flex;
+    align-items: center;
+    width: 33%;
 }
 
 .skills-image {
@@ -150,62 +161,18 @@ a {
 }
 
 .skills-2-holder {
-    margin-top: 20px;
     justify-content: space-around;
     display: flex;
     align-items: center;
-}
-
-.projects {
-    margin-top: 20px;
-}
-
-.projects-holder {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.project-ml, .project-chat {
-    background-color: #ffeded;
-    color: #ff595e;
-    text-align: center;
-    padding: 10px;
-    height: 330px;
-    border-radius: 10px;
-}
-
-.project-title {
-    margin-bottom: 30px;
-}
-
-.work-btn {
-    background-color: white;
-    color: black;
-    margin: 20px 0px 20px 0px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 100px;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.10);
-}
-
-.website-btn, .download-btn {
-    background-color: #ff595e;
-    color: white;
-    margin: 20px 0px 20px 0px;
-    padding: 10px 20px 10px 20px;
-    border-radius: 100px;
-    box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
-    0px 1px 10px 0px rgba(0, 0, 0, 0.10);
 }
 
 @media screen and (max-width: 500px) {
     .header {
         display: block;
         box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.10),
-    0px 1px 10px 0px rgba(0,0,0,0.10);
-    padding: 10px 5px 10px 5px;
-    border-radius: 5px;
+        0px 1px 10px 0px rgba(0,0,0,0.10);
+        padding: 10px 5px 10px 5px;
+        border-radius: 5px;
     }
 
     .header-context {
@@ -221,7 +188,7 @@ a {
     }
 
     .skills-2 {
-        margin: 0px 10px 10px 10px;
+        margin: 10px 10px 0px 10px;
     }
 
     .skills-holder {
@@ -230,9 +197,16 @@ a {
 
     }
 
+    .skills-python, .skills-aws, .skills-java {
+        width: 100%;
+    }
+
+    .skills-machine-learning, .skills-ethical-hacking, .skills-webdev {
+        width: 100%;
+    }
+
     .skills-2-holder {
         display: block;
-        margin: auto;
     }
 
     .anim-about {
@@ -256,14 +230,6 @@ a {
         border-radius: 7px;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
         0px 1px 10px 0px rgba(0, 0, 0, 0.10);
-    }
-
-    .projects-holder {
-        display: block;
-    }
-
-    .project-chat, .project-ml {
-        margin: 0px 40px 20px 40px;
     }
 }
 
@@ -330,12 +296,16 @@ a {
         border: none;
     }
 
+    .skills {
+        margin: auto;
+    }
+
     .skills-holder {
-        margin-top: 50px;
+        margin: 50px 0px 0px 100px;
     }
 
     .skills-2 {
-        margin-top: 50px;
+        margin: 50px 0px 0px 100px;
     }
 }
 
