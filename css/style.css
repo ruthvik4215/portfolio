@@ -166,6 +166,45 @@ a {
     align-items: center;
 }
 
+.projects {
+    background-color: black;
+    margin: 20px 0px 0px 0px;
+}
+
+.projects-holder {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.projects-ml {
+    background-color: pink;
+    width: 50%;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    height: 100%;
+}
+
+.projects-web {
+    background-color: lightgreen;
+    width: 50%;
+    margin: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+button {
+    border-radius: 100px;
+    outline: none;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    font-weight: bold;
+    background-color: black;
+    color: white;
+    margin: 0px 0px 20px 0px;
+}
+
 @media screen and (max-width: 500px) {
     .header {
         display: block;
@@ -230,6 +269,31 @@ a {
         border-radius: 7px;
         box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0.10),
         0px 1px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+
+    .projects {
+        padding: 15px 0px 15px 0px;
+    }
+
+    .projects-holder {
+        display: block;
+        margin: 10px 15px 10px 15px
+    }
+
+    .projects-ml {
+        width: 100%;
+        margin: 0px;
+        border-radius: 5px;
+    }
+
+    .projects-web {
+        width: 100%;
+        margin: 0px;
+        border-radius: 5px;
+    }
+
+    .projects-context {
+        font-size: 14px;
     }
 }
 
