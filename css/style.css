@@ -167,7 +167,6 @@ a {
 }
 
 .projects {
-    background-color: black;
     margin: 20px 0px 0px 0px;
 }
 
@@ -178,31 +177,58 @@ a {
 }
 
 .projects-ml {
-    background-color: pink;
     width: 50%;
     text-align: center;
     margin: 20px;
     border-radius: 10px;
     height: 100%;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.10),
+    0px 1px 10px 0px rgba(0,0,0,0.10);
 }
 
 .projects-web {
-    background-color: lightgreen;
     width: 50%;
     margin: 20px;
+    box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.10),
+    0px 0px 10px 0px rgba(0,0,0,0.10);
     text-align: center;
     border-radius: 10px;
+}
+
+.projects-title {
+    margin: 20px 0px 20px 0px;
+    color: #444444;
+    font-size: 28px;
+}
+
+.projects-context {
+    margin: 20px 0px 20px 0px;
+    color: #808080;
+    font-size: 16px;
 }
 
 button {
     border-radius: 100px;
     outline: none;
-    padding: 10px 20px 10px 20px;
-    border: none;
+    padding: 13px 50px 13px 50px;
+    border: 2px solid black;
     font-weight: bold;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    margin: 0px 0px 20px 0px;
+}
+
+button:hover {
     background-color: black;
     color: white;
-    margin: 0px 0px 20px 0px;
+}
+
+button::after, button:focus {
+    padding: 10px 20px 10px 20px;
+    background-color: black;
+    color: white;
 }
 
 @media screen and (max-width: 500px) {
@@ -283,17 +309,23 @@ button {
     .projects-ml {
         width: 100%;
         margin: 0px;
-        border-radius: 5px;
+        border-radius: 15px;
     }
 
     .projects-web {
         width: 100%;
-        margin: 0px;
-        border-radius: 5px;
+        margin: 20px 0px 0px 0px;
+        border-radius: 15px;
     }
 
     .projects-context {
         font-size: 14px;
+        margin: 20px 10px 20px 10px;
+    }
+
+    .projects-title {
+        padding: 30px 0px 10px 0px;
+        font-size: 25px;
     }
 }
 
