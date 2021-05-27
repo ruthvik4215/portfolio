@@ -216,7 +216,7 @@ button {
     font-weight: bold;
     background-color: black;
     border: none;
-    box-shadow: 0px 0px 20px 0px #666666;
+    box-shadow: 0px 0px 20px 0px #f1f1f1;
     transition-duration: 0.4s;
     color: white;
     cursor: pointer;
